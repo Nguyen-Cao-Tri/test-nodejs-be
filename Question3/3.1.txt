@@ -1,0 +1,1 @@
+With ERD i have already designed on question 1, i use mongoDB to implement 

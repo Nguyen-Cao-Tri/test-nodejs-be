@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  db:
+    image: mongo:latest
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data:c:/data/db
+networks:
+  default:
+    name:  33_default
+    external: true

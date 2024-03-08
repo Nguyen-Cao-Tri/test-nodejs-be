@@ -1,0 +1,29 @@
+
+- I choose MongoDB to implement cause: 
+    + Flexibility: MongoDB's flexible document model allows you to store and manage data with varying structures and schemas. This
+     flexibility is particularly useful when dealing with evolving or unstructured data, as it allows you to easily adapt your database
+     schema to changing requirements.
+    + Scalability: MongoDB is designed to scale horizontally, which means you can easily distribute your data across multiple servers or
+     clusters to handle high traffic and large data volumes. It supports automatic sharding, allowing for seamless scaling as your
+      application grows.
+    + Performance: MongoDB offers high performance for certain types of workloads, especially those that involve frequent read and write
+     operations. It uses memory-mapped storage and indexes to provide fast data access, and its flexible document structure can eliminate
+      the need for complex joins and expensive transactions.
+    + Developer Productivity: MongoDB's document-based query language (MongoDB Query Language or MQL) is designed to be intuitive and
+     developer-friendly. It allows for flexible querying and manipulation of data, making it easier and faster to develop applications.
+    + Ecosystem and Community: MongoDB has a large
+Ecosystem and Community: MongoDB has a large
+- Strong point of MongoDB:
+    + Flexibility and scalability: MongoDB is a flexible NoSQL database that allows you to store unstructured or flexible structured data. 
+     It is easily scalable by adding nodes and shards to handle large data volumes and high loads.
+    + High performance: MongoDB provides fast and efficient data retrieval. It supports powerful queries and can optimize performance using
+     indexes, caching, and replica sets.
+    + Good support for unstructured data: If your data is unstructured or has flexible structure, MongoDB is a good choice. It allows you to
+     store JSON documents without requiring a predefined fixed schema, adapting to rapidly changing data requirements.
+- Weak point of MongoDB: 
+    + Lack of full ACID support: By default, MongoDB supports ACID transactions at the document level but lacks full ACID support for
+     multi-document transactions. This can affect data consistency in certain cases.
+    + Storage overhead: MongoDB uses a document storage model, which can result in larger memory usage compared to traditional relational databases.
+     This can increase storage costs and requires careful consideration when designing the system.
+    + Management of related data: MongoDB does not support foreign keys and related data constraints like traditional relational databases. This means
+     you have to manage linkages and data consistency between different tables or documents.
